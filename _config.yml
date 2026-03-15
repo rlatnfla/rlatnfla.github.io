@@ -1,0 +1,10 @@
+title: "제목없음"
+author: "rlatnfla"
+email: "rlatnfla@gmail.com"
+description: >- 
+  설명 입력
+
+# 빌드 설정
+theme: minima
+plugins:
+  - jekyll-feed
