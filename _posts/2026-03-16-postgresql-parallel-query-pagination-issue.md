@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JPA Pageable 사용 시 조회 결과가 비일관적인 이유(PostgreSQL)"
+title: "정렬 기준이 Uniqueness 하지 않을 때, 병렬 쿼리가 일으키는 결과의 불일치"
 date: 2026-03-16
 categories: [JPA, DB]
 ---
