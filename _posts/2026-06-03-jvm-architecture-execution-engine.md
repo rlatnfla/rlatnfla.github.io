@@ -45,7 +45,9 @@ C언어로 스레드를 생성할 때 윈도우 환경에서는 `CreateThread()`
 
 ### 3. JVM 구조
 
-![JVM Model]({{ site.baseurl }}/assets/images/jvm-model.png)
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/jvm-model.png" alt="JVM Model" width="80%" />
+</p>
 
 
 
