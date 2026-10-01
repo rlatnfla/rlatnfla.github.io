@@ -30,3 +30,12 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+# 페이지네이션 설정
+paginate: 10
+paginate_path: "/page:num/"
+
+# Chirpy 전용 자바스크립트/애셋 CDNs 설정 활성화
+assets:
+  self_host:
+    enabled: true
