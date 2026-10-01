@@ -1,10 +1,32 @@
-title: "제목없음"
-author: "rlatnfla"
-email: "rlatnfla@gmail.com"
-description: >- 
-  설명 입력
+# 기본 블로그 정보
+title: title
+tagline: 개발 기록
+description: >-
+  description
+url: "https://rlatnfla.github.io"
 
-# 빌드 설정
-theme: minima
+# 작성자 정보
+author: rlatnfla
+email: rlatnfla0724@gmail.com
+github_username: rlatnfla
+
+# 테마 및 언어 설정
+theme: jekyll-theme-chirpy
+lang: ko
+timezone: Asia/Seoul
+
+# 레이아웃 및 기능 설정
+toc: true
+
+# Jekyll 플러그인
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 빌드외 대상 파일/폴더
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
