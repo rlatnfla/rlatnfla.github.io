@@ -42,7 +42,7 @@ assets:
 
 # giscus 댓글 설정
 comments:
-  active: giscus
+  provider: giscus
   giscus:
     repo: rlatnfla/rlatnfla.github.io
     repo_id: "R_kgDORnlMhA"
