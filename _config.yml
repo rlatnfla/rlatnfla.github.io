@@ -39,3 +39,16 @@ paginate_path: "/page:num/"
 assets:
   self_host:
     enabled: true
+
+# giscus 댓글 설정
+comments:
+  active: giscus
+  giscus:
+    repo: rlatnfla/rlatnfla.github.io
+    repo_id: "R_kgDORnlMhA"
+    category: "Announcements"
+    category_id: "DIC_kwDORnlMhM4DG3JJ"
+    mapping: pathname
+    strict: 1
+    input_position: bottom
+    lang: ko
