@@ -52,3 +52,12 @@ comments:
     strict: 1
     input_position: bottom
     lang: ko
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
